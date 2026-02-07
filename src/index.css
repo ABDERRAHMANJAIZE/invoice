@@ -71,6 +71,10 @@
   color: #f1f5f9;
   -webkit-text-fill-color: #f1f5f9;
 }
+.bg-primary, .bg-primary *, .bg-primary h1, .bg-primary input {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
 
 .editable-field {
   border: 1px solid transparent;
