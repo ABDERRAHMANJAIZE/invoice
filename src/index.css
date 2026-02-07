@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #e08031;
+  --color-background-light: #F9FAFB;
+  --color-background-dark: #111827;
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-container {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .bg-primary {
+    background-color: #e08031 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .text-white {
+    color: white !important;
+  }
+  .editable-field {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .delete-row-btn, .add-line-btn {
+    display: none !important;
+  }
+}
+
+.a4-page {
+  width: 210mm;
+  height: 297mm;
+  padding: 0;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+@media print {
+  .a4-page {
+    margin: 0 !important;
+    height: 100vh;
+  }
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
+
+.a4-page, .a4-page input, .a4-page textarea, .a4-page p, .a4-page span, .a4-page td {
+  color: #000;
+  opacity: 1;
+  -webkit-text-fill-color: #000;
+}
+:is(.dark .a4-page), :is(.dark .a4-page) input, :is(.dark .a4-page) textarea, :is(.dark .a4-page) p, :is(.dark .a4-page) span, :is(.dark .a4-page) td {
+  color: #f1f5f9;
+  -webkit-text-fill-color: #f1f5f9;
+}
+
+.editable-field {
+  border: 1px solid transparent;
+  background: transparent;
+  transition: all 0.15s ease;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: -2px -4px;
+  width: 100%;
+  color: #000;
+  -webkit-text-fill-color: #000;
+  opacity: 1;
+}
+:is(.dark .editable-field) {
+  color: #f1f5f9;
+  -webkit-text-fill-color: #f1f5f9;
+}
+.editable-field:hover {
+  border-color: #e2e8f0;
+  background: #f8fafc;
+}
+.editable-field:focus {
+  border-color: #e08031;
+  background: white;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(224, 128, 49, 0.15);
+}
+:is(.dark .editable-field:hover) {
+  border-color: #334155;
+  background: #1e293b;
+}
+:is(.dark .editable-field:focus) {
+  border-color: #e08031;
+  background: #0f172a;
+}
+
+.editable-field::placeholder {
+  color: #0f172a;
+  opacity: 1;
+}
+:is(.dark .editable-field)::placeholder {
+  color: #f1f5f9;
+}
+
+.delete-row-btn {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+tr:hover .delete-row-btn {
+  opacity: 1;
+}

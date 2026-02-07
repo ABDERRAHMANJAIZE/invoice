@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="90 430 850 180">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st1 {
+        font-family: Roboto-Medium, Roboto;
+        font-size: 85.83px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="st0" d="M216.36,458.97l57.71,128.14h-35.21l-10.76-26.41h-45c4.06-4.79,10.38-25.74,14.11-28.44,4.36-3.16,12.43,1.5,17.2-.42l-33.27-72.86h35.21Z"/>
+    <path class="st0" d="M124.41,587.11l32.81-69.41,32.13-11.86c.57.09,4.74,8.3,3.11,9.87l-32.84,71.4h-35.21Z"/>
+    <path class="st0" d="M187.01,496.13l-23.47,7.84,12.72-29.34c1.21-.93,9.48,20.05,10.75,21.5Z"/>
+  </g>
+  <text class="st1" transform="translate(293.86 557.5)"><tspan x="0" y="0">ARROWLANCER</tspan></text>
+</svg>
