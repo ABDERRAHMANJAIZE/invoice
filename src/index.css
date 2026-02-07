@@ -79,6 +79,14 @@
   color: #e08031 !important;
   -webkit-text-fill-color: #e08031 !important;
 }
+.a4-page .text-red-600 {
+  color: #dc2626 !important;
+  -webkit-text-fill-color: #dc2626 !important;
+}
+.a4-page .text-red-400 {
+  color: #f87171 !important;
+  -webkit-text-fill-color: #f87171 !important;
+}
 
 .editable-field {
   border: 1px solid transparent;

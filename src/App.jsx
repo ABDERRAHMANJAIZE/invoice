@@ -68,7 +68,7 @@ function App() {
           client={client}
           onClientChange={setClient}
         />
-        <div className="px-10 flex-grow">
+        <div className="px-10 flex-grow flex flex-col">
           <LineItems
             lines={lines}
             onUpdateLine={handleUpdateLine}
@@ -82,6 +82,14 @@ function App() {
             total={total}
             onTaxRateChange={setTaxRate}
           />
+          <div className="flex-1 flex items-center">
+            <div>
+              <h3 className="text-xs font-extrabold text-red-400 uppercase tracking-widest mb-1">Conditions</h3>
+              <p className="text-xs text-red-400 font-medium leading-relaxed">
+                {"Ce devis est valable 30 jours. Paiement : 50% d'acompte a la signature, solde a la livraison."}
+              </p>
+            </div>
+          </div>
         </div>
         <div className="mt-auto">
           <Footer />

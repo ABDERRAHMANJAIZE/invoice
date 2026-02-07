@@ -6,7 +6,7 @@ export default function AddressBar({ client, onClientChange }) {
   return (
     <div className="px-10 py-4 pb-8 flex justify-between">
       <div>
-        <p className="text-[10px] font-bold text-slate-900 dark:text-slate-100 uppercase tracking-widest mb-2">{"\u00c9"}metteur</p>
+        <p className="text-[10px] font-bold text-primary uppercase tracking-widest mb-2">{"\u00c9"}metteur</p>
         <div className="text-sm space-y-0.5 font-medium">
           <p className="font-bold text-slate-900 dark:text-slate-100 text-sm">ARROWLANCER</p>
           <p className="text-slate-900 dark:text-slate-100 text-sm">150 Avenue Hadj Omar Riffi</p>
@@ -15,7 +15,7 @@ export default function AddressBar({ client, onClientChange }) {
         </div>
       </div>
       <div className="pt-[6%] ml-auto" style={{ width: '30%' }}>
-        <p className="text-[10px] font-bold text-slate-900 dark:text-slate-100 uppercase tracking-widest mb-2">Client</p>
+        <p className="text-[10px] font-bold text-primary uppercase tracking-widest mb-2">Client</p>
         <div className="text-sm space-y-0.5 font-medium">
           <input
             className="editable-field font-bold text-slate-900 dark:text-slate-100 text-sm"
