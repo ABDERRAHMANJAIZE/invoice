@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div>
-      <div className="px-10 pt-2 pb-3">
+      <div className="px-10 pt-1 pb-2">
         <h3 className="text-[10px] font-bold text-slate-900 dark:text-slate-100 uppercase tracking-widest mb-1">Conditions</h3>
         <p className="text-xs text-slate-900 dark:text-slate-100 font-medium leading-relaxed">
           {"Ce devis est valable 30 jours. Paiement : 50% d'acompte a la signature, solde a la livraison."}

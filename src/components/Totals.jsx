@@ -4,7 +4,7 @@ function formatMoney(n) {
 
 export default function Totals({ subtotal, taxRate, taxAmount, total, onTaxRateChange }) {
   return (
-    <div className="flex justify-end mt-4">
+    <div className="flex justify-end mt-2">
       <div className="w-1/3 space-y-2">
         <div className="flex justify-between items-center text-xs uppercase tracking-wider font-bold text-primary">
           <span>Total HT</span>
@@ -27,7 +27,7 @@ export default function Totals({ subtotal, taxRate, taxAmount, total, onTaxRateC
         </div>
         <div className="flex justify-between items-center pt-2 border-t border-slate-200 dark:border-slate-700">
           <span className="text-sm uppercase tracking-widest font-extrabold text-primary">Total TTC</span>
-          <span className="text-lg font-extrabold text-slate-900 dark:text-white">{formatMoney(total)} dh</span>
+          <span className="text-lg font-extrabold text-primary">{formatMoney(total)} dh</span>
         </div>
       </div>
     </div>

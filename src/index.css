@@ -75,6 +75,10 @@
   color: #fff !important;
   -webkit-text-fill-color: #fff !important;
 }
+.a4-page .text-primary {
+  color: #e08031 !important;
+  -webkit-text-fill-color: #e08031 !important;
+}
 
 .editable-field {
   border: 1px solid transparent;

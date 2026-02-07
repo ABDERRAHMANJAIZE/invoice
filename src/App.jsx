@@ -23,9 +23,18 @@ function App() {
   })
 
   const [lines, setLines] = useState([
-    { id: 1, description: "Organic Wildflower Honey (500g)", unitPrice: 100, qty: 1 },
-    { id: 2, description: "Honeycomb Sampler Box", unitPrice: 25, qty: 2 },
-    { id: 3, description: "Custom Branding Packaging Fee", unitPrice: 15, qty: 3 },
+    { id: 1, description: "Conception et D\u00e9veloppement Landing Page", unitPrice: 1, qty: 1 },
+    { id: 2, description: "Design Responsive (Mobile, Tablette, Desktop)", unitPrice: 1, qty: 1 },
+    { id: 3, description: "Nom de Domaine (.ma / .com) - 1 an", unitPrice: 1, qty: 1 },
+    { id: 4, description: "H\u00e9bergement Web Premium - 1 an", unitPrice: 1, qty: 1 },
+    { id: 5, description: "Certificat SSL (HTTPS S\u00e9curis\u00e9)", unitPrice: 1, qty: 1 },
+    { id: 6, description: "Optimisation SEO On-Page", unitPrice: 1, qty: 1 },
+    { id: 7, description: "Google Analytics + Search Console Setup", unitPrice: 1, qty: 1 },
+    { id: 8, description: "Bo\u00eetes Email Professionnelles (5 comptes)", unitPrice: 1, qty: 5 },
+    { id: 9, description: "Formulaire de Contact + Int\u00e9gration", unitPrice: 1, qty: 1 },
+    { id: 10, description: "Maintenance Mensuelle (12 mois)", unitPrice: 1, qty: 12 },
+    { id: 11, description: "Sauvegardes Automatiques Quotidiennes", unitPrice: 1, qty: 12 },
+    { id: 12, description: "Support Technique (Email/T\u00e9l\u00e9phone)", unitPrice: 1, qty: 12 },
   ])
 
   const [taxRate, setTaxRate] = useState(20.0)

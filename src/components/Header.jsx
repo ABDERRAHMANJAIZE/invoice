@@ -7,9 +7,9 @@ export default function Header({ devis, onDevisChange }) {
 
   return (
     <div>
-      <div className="bg-primary px-10 py-6 flex justify-between items-center text-white">
-        <h1 className="text-5xl font-extrabold tracking-tighter uppercase">Devis</h1>
-        <img src={logoWhite} alt="ARROWLANCER" className="h-12 w-auto" />
+      <div className="bg-primary px-10 py-4 flex justify-between items-center text-white">
+        <h1 className="text-4xl font-extrabold tracking-tighter uppercase">Devis</h1>
+        <img src={logoWhite} alt="ARROWLANCER" className="h-10 w-auto" />
       </div>
       <div className="px-10 py-2 flex gap-4 text-xs border-b border-slate-200 dark:border-slate-700">
         <div className="flex items-center gap-1 whitespace-nowrap">
